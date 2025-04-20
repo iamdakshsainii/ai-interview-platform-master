@@ -4,8 +4,13 @@ import {
     Users,
     CreditCard,
     SlidersHorizontal,
+    Code2Icon,
+    User2Icon,
+    BriefcaseBusinessIcon,
+    Puzzle
   } from "lucide-react";
 
+  // Sidebar options
   export const SidebarOptions = [
     {
       name: "Dashboard",
@@ -31,5 +36,25 @@ import {
       name: "Settings",
       icon: SlidersHorizontal,
       path: "/settings",
+    },
+  ];
+
+  // Interview types (for Create Interview screen)
+  export const InterviewType = [
+    {
+      title: "Technical",
+      icon: Code2Icon,
+    },
+    {
+      title: "Behavioral",
+      icon: User2Icon,
+    },
+    {
+      title: "Experience",
+      icon: BriefcaseBusinessIcon,
+    },
+    {
+      title: "Problem Solving",
+      icon: Puzzle,
     },
   ];

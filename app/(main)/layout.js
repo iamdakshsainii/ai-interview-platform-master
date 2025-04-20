@@ -5,13 +5,11 @@ import Provider from './provider'
 
  const DashboardLayout = ({children}) => {
   return (
-    // <Provider>
-       <DashboardProvider>
-            <div className='p-10'>
+        <DashboardProvider>
+            <div className='w-full'>
             {children}
             </div>
         </DashboardProvider>
-    // </Provider>
   )
 }
 export default DashboardLayout
