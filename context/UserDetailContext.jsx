@@ -1,3 +1,3 @@
+// UserDetailContext.js
 import { createContext } from 'react';
-
-export const userDetailContext = createContext();
+export const UserDetailContext = createContext();
